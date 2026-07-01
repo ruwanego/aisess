@@ -1,0 +1,8 @@
+aisess
+*.swp
+*.swo
+*~
+.DS_Store
+*.o
+*.a
+*.so

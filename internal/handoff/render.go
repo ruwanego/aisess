@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"aisess/internal/sources"
+	"github.com/ruwanego/aisess/internal/sources"
 )
 
 // Render produces the final handoff markdown. n may be nil (no LLM was

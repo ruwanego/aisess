@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"aisess/internal/sources"
+	"github.com/ruwanego/aisess/internal/sources"
 )
 
 // TargetFile returns which file WriteToTarget will write into for a given

@@ -3,7 +3,7 @@ package handoff
 import (
 	"encoding/json"
 
-	"aisess/internal/sources"
+	"github.com/ruwanego/aisess/internal/sources"
 )
 
 // Digest is the compact, ground-truth extraction from one session.

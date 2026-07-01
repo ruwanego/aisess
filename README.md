@@ -8,11 +8,21 @@ Only two external calls exist in the whole tool: HTTP to OpenRouter (for
 `handoff`'s optional narrative step) and reading files on disk. Everything
 else is the Go standard library.
 
-## Build
+## Installation
+
+### From source
 
 ```
 go build -o aisess ./cmd/aisess
 ```
+
+### From GitHub releases
+
+```
+go install github.com/ruwanego/aisess/cmd/aisess@latest
+```
+
+The binary will be installed to `~/go/bin/aisess`. Make sure `~/go/bin` is in your `$PATH`.
 
 ## Usage
 

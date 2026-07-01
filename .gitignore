@@ -6,3 +6,4 @@ aisess
 *.o
 *.a
 *.so
+.openrouter_apikey
